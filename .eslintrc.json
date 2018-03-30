@@ -1,0 +1,16 @@
+{
+    "extends": "google",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "env": {
+        "node": true
+    },
+    "rules": {
+        "linebreak-style": "off",
+        "prefer-template": "error",
+        "max-len": "off",
+        "quotes": [2, "single"]
+    }
+}

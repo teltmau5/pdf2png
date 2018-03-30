@@ -1,5 +1,6 @@
 #!/bin/bash
-apt update
+
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 apt -y install supervisor poppler-utils nodejs
 
 mkdir -p /var/pdf2png 

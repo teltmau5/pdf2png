@@ -2,7 +2,7 @@
   "name": "pdf2png",
   "version": "1.0.0",
   "description": "Convert PDF files to PNG",
-  "main": "app.js",
+  "main": "pdf2png.js",
   "dependencies": {
     "express": "^4.16.3",
     "express-fileupload": "^0.4.0",
@@ -10,7 +10,10 @@
     "rimraf": "^2.6.2",
     "temp": "^0.8.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
